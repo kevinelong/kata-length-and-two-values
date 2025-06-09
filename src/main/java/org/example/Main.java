@@ -1,10 +1,10 @@
-package org.example;
-import java.util.stream.IntStream;
 /*
 5, true, false     -->  [true, false, true, false, true]
 10, "blue", "red"  -->  ["blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red"]
 0, "one", "two"    -->  []
  */
+package org.example;
+import java.util.stream.IntStream;
 public class Main {
     public static String[] alternate(int n, String firstValue, String secondValue) {
         String[] values = {firstValue,secondValue};
